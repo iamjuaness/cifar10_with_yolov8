@@ -16,15 +16,20 @@ Un proyecto práctico y didáctico para entrenar modelos de **clasificación de 
 ## 🗂️ Estructura del Proyecto
 
 ```bash
-yolo-cifar10-classification/
+cifar10_with_yolov8/
+├── data/
+│ └── cifar-10-batches-py/
+│ └── cifar-10-python.tar.gz
 ├── dataset/
-│ ├── train/
+│ └── train/
 │ └── val/
 ├── runs/
 │ └── classify/
 │ └── train/
 ├── notebook.ipynb
-└── README.md
+├── yolov8n-cls.pt
+├── README.md
+└── LICENSE
 ```
 
 ---
